@@ -23,6 +23,10 @@ p {
 	font-size: .95em;
 	margin-bottom: 1.8em;
 }
+h1 {
+	color: #FFFFFF;
+}
+
 h2,
 a {
 	color: #093a58;
@@ -63,21 +67,34 @@ img {
 	text-transform: uppercase;
 }
 .main-nav a:hover {
-	color: #093a58;
+	color: #FF0000;
+}
+
+.main-header {
+	background-color: #000000;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	position: sticky;
+	top: 0;
+	
+
 }
 
 /* ---- Layout Containers ---- */
 
 
-.main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-}
+
 
 .banner {
 	padding-right: 1em;
 	padding-left: 1em;
 	text-align: center;
+	background-image: url("../images/mountain.jpg");
+	background-size: cover;
+}
+.banner {
+	background-image: url(../images/mountain.jpg)
 }
 .column {
 	padding-right: 1em;
