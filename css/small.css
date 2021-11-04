@@ -1,7 +1,8 @@
-/* ================================= 
-  Base Element Styles
-==================================== */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+/* Universal Element Styles */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+	
+}
+	
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -44,9 +45,6 @@ img {
 	max-width: 100%;
 }
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
 
 /* ---- Navigation ---- */
 
@@ -78,23 +76,18 @@ img {
 	margin-bottom: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
-	position: sticky;
-	top: 0;
-	
-	
+	top: 0;	
 
 }
 
-/* ---- Layout Containers ---- */
+
+
+
+
 .banner {
-	padding-right: 1em;
-	padding-left: 1em;
-		
+	margin-left: 1em;
+	margin-right: 1em;
 }
-
-
-
-	
 
 .column {
 	padding-right: 1em;
@@ -129,9 +122,7 @@ tr:nth-child(even){
 	background-color: #f2f2f2;
 }
 
-/* ================================= 
-  Media Queries
-==================================== */
+/* Media Queries */
 
 @media (min-width: 769px) {
 

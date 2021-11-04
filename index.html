@@ -16,13 +16,13 @@
 
 <body>
     <header class="main-header">
-        <h1 class="name">CSS Consultants</h1>
+        <h1 id="top" class="name">CSS Consultants</h1>
         <nav>
             <ul class="main-nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">QC Tools</a></li>
-                <li><a href="#">Workshops</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tools">QC Tools</a></li>
+                <li><a href="#workshops">Workshops</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -32,17 +32,17 @@
           <h2>Experts in Implementing the 7QC Tools</h2>
        </div>
     </body>
-      
+    
     <main>
-        <div>
+        <div id="about">
             <h2>About</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
             </p>
+            <p><a href="#top">Back to top</a></p>
         </div>
             <div>
-                <div class="Tools">
-                    <h2>7 QC Tools</h2>
+                <div>
+                    <h2 id="tools">7 QC Tools</h2>
              <!----  <ul class="main-nav">
                         <li><a href="#">Process Flow Diagram</a></li>
                         <li><a href="#">Check Sheet</a></li>
@@ -58,7 +58,8 @@
                     <div class="column">
                     <h2>Process Flow Diagram</h2>
                     <p><img src="images/Process-Flow-Diagram.jpg" alt="Process Flow Diagram" width=100% />The process
-                        flow diagram identifies the shortfall in the process and identifies At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  
+                        flow diagram identifies the shortfall in the process and identifies At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                          
                     </div>    
                     <div class="column">
                     <h2>Check Sheet</h2>
@@ -85,7 +86,7 @@
                     <p><img src="images/Control-Chart.jpg" alt="Control Chart" width=100% />The control chart identifies processes that are out of control At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. </p>
                     </div>
                 </div>
-                <section>
+                <section id="workshops">
                     <h2>7QC Workshops</h2>
                     <p>We will be conduction a number of 7QC workshops and symposiums throughout the year 2022.</p>
                     <ul>
@@ -94,8 +95,7 @@
                         <li>Reporting results</li>
                         <li>Cost to Implement</li>
                     </ul> 
-                </section>
-
+                
                 <div style="overflow-x:auto;"></div>
                     <table>
                         <tr class="head">
@@ -124,7 +124,8 @@
                             <td>Sat. 5 Nov 2022<br>11am - 2pm</td>     
                         </tr>
                     </table>
-                </div>    
+                </div>
+                </section>    
 
             </div>      
     </main>
@@ -136,13 +137,13 @@
                 <label class="title" for="email">Your email:</label>
                 <input type="text" name="email">
             </p>
-            <p><label for="location" class="title">Select your center:</label>
+            <p><label for="location" class="title">Select your location:</label>
                 <select type="location" id="location">
                     <option value="Lvl">Louisville</option>
                     <option value="Chg">Chicago</option>
                 </select>
             </p>
-            <p><label for="time" class="date">Select your date:</label>
+            <p><label for="time" class="date">Select date:</label>
                 <select type="time" id="time">
                     <option value="Feb">Sat. 5 Feb 2022</option>
                     <option value="Mar">Sat. 12 Mar 2022</option>
