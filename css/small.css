@@ -80,13 +80,12 @@ img {
 }
 
 .banner {
+	width: 100%
 	margin-left: 1em;
-    margin-right: 1em;
+	margin-right: 1em;
 }
-
 .column {
-	padding-right: 1em;
-	padding-left: 1em;
+	width: 100%;
 }
 
 /* ----FOOTER ------*/
@@ -146,7 +145,8 @@ tr:nth-child(even){
 		justify-content: space-between;
 	}
 	.column {
-		flex: 1 30%;	
+		flex: 1 30%;
+		
 	}
 	.row {
 		flex-wrap: wrap;
